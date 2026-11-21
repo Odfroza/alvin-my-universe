@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "routes": [
+    "/",
+    "/journey/",
+    "/journey/full/",
+    "/about/",
+    "/vision/",
+    "/projects/",
+    "/experience/",
+    "/contact/",
+    "/privacy/",
+    "/projects/orzen/",
+    "/projects/ai-agents-studio/",
+    "/projects/ocean/",
+    "/experience/ppi-jerman/",
+    "/experience/ppi-ldk-5-0/",
+    "/experience/gsm/"
+  ],
+  "publication": "local-only",
+  "contact": "disabled",
+  "portrait": "owner-photo-based"
+}
