@@ -1,10 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.1",
   "routes": [
     "/",
     "/journey/",
     "/journey/full/",
     "/about/",
+    "/about/full/",
     "/vision/",
     "/projects/",
     "/experience/",
@@ -15,9 +16,10 @@
     "/projects/ocean/",
     "/experience/ppi-jerman/",
     "/experience/ppi-ldk-5-0/",
-    "/experience/gsm/"
+    "/experience/gsm/",
+    "/experience/kieler-woche/"
   ],
-  "publication": "local-only",
-  "contact": "disabled",
-  "portrait": "owner-photo-based"
+  "publication": "static",
+  "contact": "formsubmit",
+  "portrait": "front-photo-inferred-volume"
 }

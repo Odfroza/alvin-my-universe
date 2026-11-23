@@ -1,22 +1,32 @@
 <!doctype html><html lang="en"><head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#101113"><meta name="robots" content="noindex, nofollow">
-    <meta name="referrer" content="no-referrer"><meta name="description" content="Get in touch with Alvin.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self' https://formsubmit.co; object-src 'none'; base-uri 'none'; form-action https://formsubmit.co">
+    <meta name="referrer" content="strict-origin-when-cross-origin"><meta name="description" content="Get in touch with Alvin.">
     <title>Contact · Alvin / My Universe</title><link rel="icon" href="/alvin-my-universe/assets/favicon.svg">
     <link rel="stylesheet" href="/alvin-my-universe/styles.css"><script type="module" src="/alvin-my-universe/main.mjs"></script>
     </head><body id="top"><a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header"><div class="wrap header-inner"><a class="wordmark" href="/" aria-label="Alvin / My Universe, home">
+    <header class="site-header"><div class="wrap header-inner"><a class="wordmark" href="/alvin-my-universe/" aria-label="Alvin / My Universe, home">
     <span class="mark" aria-hidden="true"></span><strong>Alvin</strong><span class="slash">/</span><span>My Universe</span></a>
       <button type="button" class="menu-toggle" aria-controls="main-nav" aria-expanded="false" hidden>Menu</button>
-      <nav id="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/alvin-my-universe/about/">About</a><a href="/alvin-my-universe/experience/">Experience</a><a href="/alvin-my-universe/journey/">Journey</a><a href="/alvin-my-universe/projects/">Projects</a><a href="/alvin-my-universe/projects/ocean/">OCEAN</a><a href="/alvin-my-universe/contact/" aria-current="page">Contact</a></nav></div></header>
+      <nav id="main-nav" aria-label="Main navigation"><a href="/alvin-my-universe/">Home</a><a href="/alvin-my-universe/about/">About</a><a href="/alvin-my-universe/experience/">Experience</a><a href="/alvin-my-universe/journey/">Journey</a><a href="/alvin-my-universe/projects/">Projects</a><a href="/alvin-my-universe/projects/ocean/">OCEAN</a><a href="/alvin-my-universe/contact/" aria-current="page">Contact</a></nav></div></header>
     <main id="main" tabindex="-1"><header class="page-intro wrap"><p class="kicker">Contact</p>
   <h1>What’s on your mind?</h1><p class="lede">I’d love to hear what you’re working on, what you’re curious about, or which part of this universe brought you here.</p></header>
-    <div class="wrap contact-layout"><section class="contact-active"><p class="kicker">Instagram</p><h2>@antsalvin</h2><p>You can reach me on Instagram.</p>
-    <a class="button light" href="https://www.instagram.com/antsalvin/">Open Instagram</a></section><section><h2>Send a note</h2><p id="contact-state">Message sending is disabled in this local edition.</p>
-    <form aria-describedby="contact-state"><fieldset disabled><legend>Contact form</legend>
-    <label>Your name<input type="text" autocomplete="off"></label><label>Your email<input type="email" autocomplete="off"></label>
-    <label>Message<textarea rows="3"></textarea></label><button type="submit">Send message</button></fieldset></form></section></div></main>
-    <footer><div class="wrap footer-inner"><a class="wordmark" href="/" aria-label="Alvin / My Universe, home">
+    <div class="wrap contact-layout"><aside class="contact-active"><p class="kicker">Find me on Instagram</p><h2>@antsalvin</h2>
+      <a class="text-link" href="https://www.instagram.com/antsalvin/">Open Instagram</a></aside>
+    <section><h2>Send a note</h2><form data-contact method="post" action="https://formsubmit.co/antsalvin@gmail.com">
+      <label>Your name<input name="name" autocomplete="name" required maxlength="100"></label>
+      <label>Your email<input type="email" name="email" autocomplete="email" required maxlength="254"></label>
+      <label>Message<textarea name="message" rows="6" required minlength="5" maxlength="5000"></textarea></label>
+      <div class="mail-trap" aria-hidden="true"><label>Leave this field empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <input type="hidden" name="_subject" value="ALVIN / My Universe · Website message">
+      <input type="hidden" name="_url" value="https://odfroza.github.io/alvin-my-universe/contact/">
+      <p class="form-privacy">FormSubmit processes your name, email and message so I can reply. <a class="inline-link" href="/alvin-my-universe/privacy/">Privacy</a></p>
+      <button class="button light" type="submit">Send message</button>
+      <p role="status" aria-live="polite" data-send-status></p>
+      <button class="text-action" type="button" data-provider-check hidden>Continue on FormSubmit</button>
+    </form></section></div></main>
+    <footer><div class="wrap footer-inner"><a class="wordmark" href="/alvin-my-universe/" aria-label="Alvin / My Universe, home">
     <span class="mark" aria-hidden="true"></span><strong>Alvin</strong><span class="slash">/</span><span>My Universe</span></a><nav aria-label="Footer navigation">
       <a href="/alvin-my-universe/vision/">Vision</a><a href="/alvin-my-universe/contact/">Contact</a><a href="/alvin-my-universe/privacy/">Privacy</a><a href="#top">Back to top</a>
-    </nav><small>Local edition · Editorial preview</small></div></footer></body></html>
+    </nav><small>Kiel, Germany</small></div></footer></body></html>
